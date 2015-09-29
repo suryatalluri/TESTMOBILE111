@@ -234,6 +234,7 @@
 		"_id": "wm-goToPage_fileUploadWid-wm.NavigationVariable-1443176975048"
 	},
 	"HrdbDepartmentData": {
+		"name": "HrdbDepartmentData",
 		"type": "Department",
 		"isList": true,
 		"owner": "App",
@@ -262,7 +263,7 @@
 		"category": "wm.LiveVariable",
 		"isDefault": true,
 		"dbSystem": "HSQLDB",
-		"_id": "wm-HrdbDepartmentData-wm.LiveVariable-1443530204218",
+		"_id": "wm-HrdbDepartmentData-wm.LiveVariable-1443179230277",
 		"package": "com.hrdb.Department",
 		"tableName": "DEPARTMENT",
 		"tableType": "TABLE",
@@ -418,6 +419,7 @@
 		}
 	},
 	"HrdbEmployeeData": {
+		"name": "HrdbEmployeeData",
 		"type": "Employee",
 		"isList": true,
 		"owner": "App",
@@ -436,7 +438,7 @@
 		"maxResults": 20,
 		"designMaxResults": 10,
 		"operation": "read",
-		"startUpdate": false,
+		"startUpdate": true,
 		"autoUpdate": true,
 		"inFlightBehavior": "executeLast",
 		"transformationRequired": false,
@@ -446,7 +448,7 @@
 		"category": "wm.LiveVariable",
 		"isDefault": true,
 		"dbSystem": "HSQLDB",
-		"_id": "wm-HrdbEmployeeData-wm.LiveVariable-1443530204225",
+		"_id": "wm-HrdbEmployeeData-wm.LiveVariable-1443179230282",
 		"package": "com.hrdb.Employee",
 		"tableName": "EMPLOYEE",
 		"tableType": "TABLE",
@@ -1150,9 +1152,11 @@
 			"entityName": "Employee",
 			"fullyQualifiedName": "com.hrdb.Employee",
 			"tableType": "TABLE"
-		}
+		},
+		"bindCount": 1
 	},
 	"HrdbUserData": {
+		"name": "HrdbUserData",
 		"type": "User",
 		"isList": true,
 		"owner": "App",
@@ -1181,7 +1185,7 @@
 		"category": "wm.LiveVariable",
 		"isDefault": true,
 		"dbSystem": "HSQLDB",
-		"_id": "wm-HrdbUserData-wm.LiveVariable-1443530204232",
+		"_id": "wm-HrdbUserData-wm.LiveVariable-1443179230286",
 		"package": "com.hrdb.User",
 		"tableName": "USER",
 		"tableType": "TABLE",
@@ -1267,6 +1271,7 @@
 		}
 	},
 	"HrdbVacationData": {
+		"name": "HrdbVacationData",
 		"type": "Vacation",
 		"isList": true,
 		"owner": "App",
@@ -1295,7 +1300,7 @@
 		"category": "wm.LiveVariable",
 		"isDefault": true,
 		"dbSystem": "HSQLDB",
-		"_id": "wm-HrdbVacationData-wm.LiveVariable-1443530204236",
+		"_id": "wm-HrdbVacationData-wm.LiveVariable-1443179230290",
 		"package": "com.hrdb.Vacation",
 		"tableName": "VACATION",
 		"tableType": "TABLE",
@@ -1579,21 +1584,5 @@
 			"fullyQualifiedName": "com.hrdb.Vacation",
 			"tableType": "TABLE"
 		}
-	},
-	"goToPage_Page": {
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Page",
-		"dataBinding": {},
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Page-wm.NavigationVariable-1443530218980"
-	},
-	"goToPage_Page1": {
-		"owner": "App",
-		"operation": "gotoPage",
-		"pageName": "Page1",
-		"dataBinding": {},
-		"category": "wm.NavigationVariable",
-		"_id": "wm-goToPage_Page1-wm.NavigationVariable-1443530483452"
 	}
 }
